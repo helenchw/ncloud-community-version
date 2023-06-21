@@ -18,10 +18,10 @@ ExternalProject_Add (
     "zero-mq"
     PREFIX "third-party/zeromq"
     EXCLUDE_FROM_ALL true
-    URL ${PROJECT_THIRD_PARTY_LIB_DIR}/zeromq-4.2.5.tar.gz
-    URL_MD5 a1c95b34384257e986842f4d006957b8
+    URL ${PROJECT_THIRD_PARTY_LIB_DIR}/zeromq-da31917.tar.gz
+    URL_MD5 7ae4a1413fc96823adee280045381e2c
     UPDATE_COMMAND ""
-    PATCH_COMMAND patch -p1 < ${PROJECT_THIRD_PARTY_LIB_DIR}/patch/zeromq-4.2.5.patch
+    #PATCH_COMMAND patch -p1 < ${PROJECT_THIRD_PARTY_LIB_DIR}/patch/zeromq-4.2.5.patch
     CMAKE_ARGS
         -DCMAKE_INSTALL_PREFIX=${PROJECT_BINARY_DIR}
         -DBUILD_SHARED=ON
