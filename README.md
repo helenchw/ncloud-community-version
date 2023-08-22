@@ -218,6 +218,10 @@ See the [testing guide](TESTING.md) for details.
 
 See the [list of libraries](OPEN_SOURCE_LIBS.md) for details.
 
+## Open-source License
+
+See the [license file](LICENSE) for details.
+
 ## Contributors (in alphabetical order)
 
 - [Chan, Hoi Wan (Helen)][helen_chan]
