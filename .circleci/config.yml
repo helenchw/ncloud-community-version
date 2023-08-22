@@ -27,7 +27,7 @@ jobs:
           name: "Build the project"
           command: |
             cmake -DCMAKE_BUILD_TYPE=Release ~/project
-            make -j$(nproc --ignore=2)
+            make
 
 # Orchestrate jobs using workflows
 # See: https://circleci.com/docs/configuration-reference/#workflows
