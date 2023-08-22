@@ -13,21 +13,21 @@ jobs:
     # Add steps to the job
     # See: https://circleci.com/docs/configuration-reference/#steps
     steps:
-      - checkout
+      #- checkout
       - run:
           name: "Install pre-requisites"
           command: |
             apt update
             apt install -y cmake git g++ libssl-dev libboost-filesystem-dev libboost-system-dev libboost-timer-dev libboost-log-dev libboost-random-dev libboost-locale-dev libboost-regex-dev autoconf libtool nasm pkg-config libevent-dev uuid-dev redis-server redis-tools libxml2-dev libcpprest-dev libaprutil1-dev libapr1-dev libglib2.0-dev libjson-c-dev unzip curl nlohmann-json3-dev libcurl-ocaml-dev
-      #- run:
-      #    name: "Clone source code"
-      #    command: |
-      #      git clone https://github.com/helenchw/ncloud-community-version ~/project
+      - run:
+          name: "Clone source code"
+          command: |
+            git clone https://github.com/helenchw/ncloud-community-version ~/project
       - run:
           name: "Build the project"
           command: |
             cmake -DCMAKE_BUILD_TYPE=Release ~/project
-            make -j$(nproc --all)
+            make -j$(nproc --ignore=2)
 
 # Orchestrate jobs using workflows
 # See: https://circleci.com/docs/configuration-reference/#workflows
