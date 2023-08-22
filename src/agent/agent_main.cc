@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: Apache-2.0
+
 #include <signal.h> // signal()
 
 #include <glog/logging.h>

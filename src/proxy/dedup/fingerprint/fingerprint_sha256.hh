@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: Apache-2.0
+
 #ifndef __FINGERPRINT_SHA256_HH__
 #define __FINGERPRINT_SHA256_HH__
 

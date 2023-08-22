@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: Apache-2.0
+
 #ifndef __DEDUP_CHUNKER_HH__
 #define __DEDUP_CHUNKER_HH__
 

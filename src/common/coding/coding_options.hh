@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: Apache-2.0
+
 #ifndef __CODING_OPTIONS_HH__
 #define __CODING_OPTIONS_HH__
 

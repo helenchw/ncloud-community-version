@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: Apache-2.0
+
 #ifndef __AGENT_COORDINATOR_HH__
 #define __AGENT_COORDINATOR_HH__
 

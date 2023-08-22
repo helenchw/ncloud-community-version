@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: Apache-2.0
+
 #ifndef __BLOCK_LOCATION_HH__
 #define __BLOCK_LOCATION_HH__
 

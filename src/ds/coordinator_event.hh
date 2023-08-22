@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: Apache-2.0
+
 #ifndef __COORDINATOR_EVENT_HH__
 #define __COORDINATOR_EVENT_HH__
 

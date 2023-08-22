@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: Apache-2.0
+
 #include <stdio.h> // ftell(), rewind(), sprintf()
 #include <string.h> // strlen()
 #include <string>

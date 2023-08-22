@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: Apache-2.0
+
 #include <sys/types.h> // open()
 #include <sys/stat.h>  // open()
 #include <fcntl.h>     // open()

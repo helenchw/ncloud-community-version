@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: Apache-2.0
+
 #ifndef __CHECKSUM_CALCULATOR_HH__
 #define __CHECKSUM_CALCULATOR_HH__
 

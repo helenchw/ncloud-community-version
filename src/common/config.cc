@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: Apache-2.0
+
 #include <sys/stat.h> // mkdir()
 #include <sys/types.h> // mkdir()
 #include <arpa/inet.h> // inet_pton(), inet_ntop(), htonl()

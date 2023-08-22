@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: Apache-2.0
+
 #ifndef __AZURE_CONTAINER_HH__
 #define __AZURE_CONTAINER_HH__
 

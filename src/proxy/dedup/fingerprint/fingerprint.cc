@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: Apache-2.0
+
 #include "fingerprint.hh"
 #include <openssl/evp.h>
 #include <openssl/sha.h>

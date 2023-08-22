@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: Apache-2.0
+
 #ifndef __Agent_IO_HH__
 #define __Agent_IO_HH__
 

@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: Apache-2.0
+
 #include <stdio.h> // printf()
 #include <signal.h> // signal()
 

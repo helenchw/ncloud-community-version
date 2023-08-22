@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: Apache-2.0
+
 #ifndef __DEDUP_NONE_HH__
 #define __DEDUP_NONE_HH__
 

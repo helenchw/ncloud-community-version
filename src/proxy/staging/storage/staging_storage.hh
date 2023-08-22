@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: Apache-2.0
+
 #ifndef __STAGING_STORAGE_HH__
 #define __STAGING_STORAGE_HH__
 

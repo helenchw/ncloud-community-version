@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: Apache-2.0
+
 #ifndef __CHUNK_MANAGER_HH__
 #define __CHUNK_MANAGER_HH__
 

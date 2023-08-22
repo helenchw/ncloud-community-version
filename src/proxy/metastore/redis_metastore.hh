@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: Apache-2.0
+
 #ifndef __REDIS_METASTORE_HH__
 #define __REDIS_METASTORE_HH__
 

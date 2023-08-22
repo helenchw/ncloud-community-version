@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: Apache-2.0
+
 #ifndef __CONTAINER_MANAGER_HH__
 #define __CONTAINER_MANAGER_HH__
 

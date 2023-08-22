@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: Apache-2.0
+
 #ifndef __PROXY_INT_ZMQ_HH__
 #define __PROXY_INT_ZMQ_HH__
 

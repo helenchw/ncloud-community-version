@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: Apache-2.0
+
 #ifndef __METASTORE_HH__
 #define __METASTORE_HH__
 

@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: Apache-2.0
+
 #ifndef __PROXY_COORDINATOR_HH__
 #define __PROXY_COORDINATOR_HH__
 

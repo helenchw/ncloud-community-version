@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: Apache-2.0
+
 #ifndef __ZMQ_CLIENT_INTERFACE_H__
 #define __ZMQ_CLIENT_INTERFACE_H__
 

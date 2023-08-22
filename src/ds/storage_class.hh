@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: Apache-2.0
+
 #ifndef __STORAGE_CLASS_HH__
 #define __STORAGE_CLASS_HH__
 

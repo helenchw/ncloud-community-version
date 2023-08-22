@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: Apache-2.0
+
 #ifndef __BENCHMARK_TIME_HH__
 #define __BENCHMARK_TIME_HH__
 

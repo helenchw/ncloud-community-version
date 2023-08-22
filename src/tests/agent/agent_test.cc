@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: Apache-2.0
+
 #include <pthread.h> // pthread_*()
 #include <stdio.h> // printf()
 #include <boost/uuid/uuid.hpp>

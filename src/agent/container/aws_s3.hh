@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: Apache-2.0
+
 #ifndef __AWS_CONTAINER_HH__
 #define __AWS_CONTAINER_HH__
 

@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: Apache-2.0
+
 #include <stdlib.h>  // exit(), strtol()
 #include <stdio.h> // sprintf()
 #include <boost/uuid/uuid_io.hpp>

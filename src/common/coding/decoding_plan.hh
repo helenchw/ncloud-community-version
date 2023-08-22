@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: Apache-2.0
+
 #ifndef __DECODING_PLAN_HH__
 #define __DECODING_PLAN_HH__
 
