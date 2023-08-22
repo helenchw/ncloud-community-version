@@ -17,10 +17,22 @@ jobs:
       - run:
           name: "Say hello"
           command: "echo Hello, World!"
+  build:
+    docker:
+      - image: ubuntu:jammy
+    steps:
+      - checkout
+      - run:
+          name: "Update the apt package lists"
+          command: apt update
+      - run: 
+          name: "Install pre-requisites"
+          command: apt install cmake g++ libssl-dev libboost-filesystem-dev libboost-system-dev libboost-timer-dev libboost-log-dev libboost-random-dev libboost-locale-dev libboost-regex-dev autoconf libtool nasm pkg-config libevent-dev uuid-dev redis-server redis-tools libxml2-dev libcpprest-dev libaprutil1-dev libapr1-dev libglib2.0-dev libjson-c-dev unzip curl nlohmann-json3-dev libcurl-ocaml-dev
 
 # Orchestrate jobs using workflows
 # See: https://circleci.com/docs/configuration-reference/#workflows
 workflows:
   say-hello-workflow:
     jobs:
-      - say-hello
+      #- say-hello
+      - build
